@@ -14,7 +14,7 @@ const Header = () => {
                 <ul>Contact</ul>
             </nav>
             <div className='text-[16px] font-bold bg-gradient-to-r from-[#7755FF] to-[#FF54B0] px-4 py-2 rounded rounded-xl flex'>
-                <img src={assets.hire} alt="hire" className='h-[16px]'/>
+                <img src={assets.hire} alt="hire" className='h-[16px] inline-block'/>
                 <button className='pl-3 text-[#FFFFFF]'>Hire Me</button>
             </div>
         </div>

@@ -42,10 +42,10 @@ const Identity = ({name="-default-"}) => {
                 </div>
     
                 <div className='pt-10 flex pb-28'>
-                    <img src={assets.instagram} className='pr-3'/>
-                    <img src={assets.github} className='pr-3'/>
-                    <img src={assets.basket} className='pr-3'/>
-                    <img src={assets.linkedin}/>
+                    <img src={assets.instagram} alt="Instagram Icon" className='pr-3'/>
+                    <img src={assets.github} alt="GitHub Icon" className='pr-3'/>
+                    <img src={assets.basket} alt="Basket Icon" className='pr-3'/>
+                    <img src={assets.linkedin} alt="LinkedIn Icon"/>
                 </div>
 
 
