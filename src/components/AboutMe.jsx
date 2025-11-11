@@ -1,5 +1,6 @@
 import React from 'react'
 import assets from '../assets/assetsIndex.js'
+import AboutMeSkills from './reusable/AboutMeSkills.jsx'
 
 
 const AboutMe = ({name="-default-"}) => {
@@ -26,25 +27,13 @@ const AboutMe = ({name="-default-"}) => {
                     </div>
 
                     <div className='mt-[80px] flex flex-row justify-between'>
-                        <div className='font-semibold text-[14px] text-[#7755FF] bg-[#F0E7FF] rounded-md px-[10px] py-[8px]'>
-                            ✓ UI/UX Design
-                        </div>
-                        <div className='font-semibold text-[14px] text-[#7755FF] bg-[#F0E7FF] rounded-md px-[10px] py-[8px]'>
-                            ✓ Web Development
-                        </div>
-                        <div className='font-semibold text-[14px] text-[#7755FF] bg-[#F0E7FF] rounded-md px-[10px] py-[8px]'>
-                            ✓ Branding
-                        </div>
+                        <AboutMeSkills skills="✓ UI/UX Design"/>
+                        <AboutMeSkills skills="✓ Web Development"/>
+                        <AboutMeSkills skills="✓ Branding"/>
                     </div>
 
                     <div className='mt-[15px] flex flex-row justify-between'>
-                        <div className='font-semibold text-[14px] text-[#7755FF] bg-[#F0E7FF] rounded-md px-[10px] py-[8px]'>
-                            ✓ Motion Graphics
-                        </div>
-                        <div>
-                        </div>
-                        <div>
-                        </div>
+                        <AboutMeSkills skills="✓ Motion Graphics"/>
                     </div>
 
                     <div className='text-[16px] font-semibold bg-gradient-to-r from-[#7755FF] to-[#FF54B0] px-4 py-2 rounded rounded-lg flex mt-[45px]'>
